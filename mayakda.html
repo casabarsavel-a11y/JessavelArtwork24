@@ -56,13 +56,12 @@ body {
 /* CONTENT */
 .content {
     background: #fffaf2;
-    width: 80%;
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 50px 60px;
+    width: min(95%, 1000px);
+    margin: 30px auto;
+    padding: 30px 20px;
     border-radius: 20px;
-    box-shadow: 0 10px 28px rgba(0,0,0,0.15);
 }
+
 
 .content h2 {
     text-align: center;
@@ -111,30 +110,20 @@ footer {
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
-  .cards {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+    .author-image img {
+        width: 160px;
+        height: 160px;
+    }
 
-  .card {
-    width: 90%;
-  }
-
-  .hero h1 {
-    font-size: 28px;
-  }
-
-  .hero p {
-    font-size: 16px;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+    .author-text {
+        padding: 20px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    
 
 }
+
 </style>
 </head>
 
