@@ -200,12 +200,14 @@ footer {
 /* ===== MOBILE FIX FOR FIL 211 ===== */
 @media (max-width: 768px) {
 
+    /* CONTENT */
     .content {
         width: 95%;
         padding: 20px 15px;
         margin: 20px auto;
     }
 
+    /* HEADER */
     .hero {
         height: auto;
         padding: 60px 15px;
@@ -220,10 +222,10 @@ footer {
         font-size: 14px;
     }
 
+    /* NAVIGATION */
     .sub-nav {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         gap: 10px;
     }
 
@@ -233,26 +235,24 @@ footer {
         font-size: 14px;
     }
 
+    /* POEMS */
     .poem p {
         font-size: 15px;
         line-height: 1.7;
         text-align: left;
     }
 
+    /* IMAGES */
     img {
         max-width: 100%;
         height: auto;
     }
 
+    /* CARDS (OBRA) */
     .cards {
+        display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 20px;
     }
-
-    .card {
-        width: 95%;
-    }
 }
-
 
